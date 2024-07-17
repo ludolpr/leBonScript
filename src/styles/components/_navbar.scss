@@ -1,0 +1,37 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: $secondary;
+    box-shadow: 0 7px 12px rgb(240, 253, 253);
+
+    color: #fff;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.Logo {
+    font-size: 24px;
+}
+
+.NavLinks {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.NavItem {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.NavLinks ul {
+    text-decoration: none;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}

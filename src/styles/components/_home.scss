@@ -1,0 +1,52 @@
+.homeContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.leftHome {
+    font-size: large;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightHome {
+    display: flex;
+    width: 50%;
+    // background-color: rgb(253, 0, 63);
+
+}
+
+.rightHome img {
+    width: 850px;
+    height: auto;
+    border-radius: 25px;
+    box-shadow: 15px 15px 12px rgb(240, 253, 253);
+
+}
+
+
+.annonces {
+    background-color: $secondary;
+
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 0;
+    height: 50px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 15px 15px 12px rgb(240, 253, 253);
+
+
+}
