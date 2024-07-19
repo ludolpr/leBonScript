@@ -1,0 +1,58 @@
+.admin-page {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0;
+   
+}
+
+.pills-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pill {
+    text-decoration: none;
+    color: $primary;
+    padding: 10px 20px;
+    border: 1px solid $primary;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    background: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.pill:hover,
+.pill.active {
+    background-color: $primary;
+    color: #fff;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.edit-section {
+    margin-top: 20px;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
